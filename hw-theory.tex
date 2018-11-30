@@ -318,7 +318,7 @@ $$\infer{\Gamma\vdash \texttt{unpack}\ \{\alpha,x:\sigma\} = T\ \texttt{in}\ E^\
 \item Определите функции арифметики для Fin:\\
 (а) \verb!plus_fin: Fin a -> Fib b -> Fin (a+b)!\\
 (б) \verb!mul_fin: Fin a -> Fin b -> Fin (a*b)!\\
-(в) \verb!dec_fin: Fin (S a) -> Fin a!
+(в) \verb!dec_fin: Fin (S (S a)) -> Fin (S a)!
 
 \item Определите функции минимума для натуральных (Пеано) и конечных чисел:\\
 \verb!nat_min: Nat -> Nat -> Nat!\\
